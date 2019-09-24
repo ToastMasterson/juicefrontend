@@ -1,22 +1,88 @@
-.App {
-  text-align: center;
+
+body {
+  background-image: url("https://woodcomm.ie/wp-content/uploads/2018/10/dark-blue-gradient-background-9562-1024x616.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.text-input {
+  width: 50%;
+  margin: 5px;
 }
+
+.submit {
+  margin: 10px;
+  width: 80px;
+}
+
+.search {
+    background-image: url("https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-100-vicious-stance.png");
+    width: 400px;
+    color: whitesmoke;
+    border-style: outset;
+    border-color: beige;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome-div {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome {
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 10%;
+  background-image: url("https://fitness.moleculartestinglabs.com/wp-content/uploads/sites/19/2016/12/blue-gym-background.jpg");
+  width: 80%;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-family: 'Black Ops One', cursive;
+}
+
+.welcomeh1 {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  text-shadow:
+		-2px -2px 0 rgb(235, 235, 235),
+		2px -2px 0 rgb(219, 216, 216),
+		-1px 1px 0 rgb(228, 223, 223),
+		1px 1px 0 rgb(236, 230, 230);
+}
+
+.welcomeh2 {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  text-decoration: underline;
+  text-shadow:
+		-1px -1px 0 rgb(235, 235, 235),
+		1px -1px 0 rgb(219, 216, 216),
+		-1px 1px 0 rgb(228, 223, 223),
+		1px 1px 0 rgb(236, 230, 230);
+}
+
+
+.powder-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* font-family: 'Bree Serif', serif;
+font-family: 'Lexend Tera', sans-serif;
+font-family: 'Black Ops One', cursive; */
