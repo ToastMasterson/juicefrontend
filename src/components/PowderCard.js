@@ -1,5 +1,4 @@
 import React from 'react'
-// import React, {useState} from 'react'
 import '../Cards.css'
 
 const PowderCard = ({powder}) => {
@@ -12,7 +11,7 @@ const PowderCard = ({powder}) => {
         <div className="flip-card">
             <div className="flip-card-inner">
                 <div className="flip-card-front">
-                    <h1 className="card-header"><a href={linkTo(powder.brand, powder.name, powder.flavor)} target="_blank">{powder.brand}</a></h1>
+                    <h1 className="card-header"><a href={linkTo(powder.brand, powder.name, powder.flavor)} target="_blank" rel="noopener noreferrer">{powder.brand}</a></h1>
                     <h3 className="card-sub-header">{powder.name}</h3>
                     <img className="card-front-image" alt="powder" src={powder.productImage} />
                     <p className="card-flavor">Flavor: {powder.flavor}</p>
@@ -24,18 +23,6 @@ const PowderCard = ({powder}) => {
             </div>
         </div>
     )
-    //     <div className={ activeCard ? 'active-card' : 'card'} onClick ={() => setActiveCard(powder)}>
-    //         <h1>{powder.name}</h1>
-    //         <img alt="powder" src={powder.productImage} />
-    //         <p>{powder.price}</p>
-    //         <p>{powder.flavor}</p>
-    //         {activeCard
-    //         ? (<section className = 'details'>
-    //             <img alt="nutrition" src={powder.nutritionImage} />
-    //         </section>)
-    //         : null}
-    //     </div>
-    // )
 }
 
 export default PowderCard
